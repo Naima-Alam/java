@@ -1,0 +1,52 @@
+
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="fx8apane1" prefHeight="520.0" prefWidth="850.0" style="-fx-background-color: #e0eafc;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalproject3.StudentEnrollCourseController">
+   <children>
+      <Text fill="#2c3e50" layoutX="302.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Panel">
+         <font>
+            <Font name="SansSerif Bold" size="40.0" />
+         </font>
+      </Text>
+      <Separator layoutX="73.0" layoutY="69.0" prefHeight="16.0" prefWidth="698.0" />
+      <Text fill="#2c3e50" layoutX="358.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Course Enrollment">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Text>
+      <Separator layoutX="305.0" layoutY="126.0" prefHeight="16.0" prefWidth="258.0" />
+      <TableView fx:id="fx8courseenroll" layoutX="17.0" layoutY="163.0" prefHeight="340.0" prefWidth="606.0">
+        <columns>
+          <TableColumn fx:id="fx8sn" prefWidth="77.0" text="Serial No" />
+          <TableColumn fx:id="fx8title" prefWidth="146.0" text="Course Title" />
+            <TableColumn fx:id="fx8code" prefWidth="114.0" text="Course Code" />
+            <TableColumn fx:id="fx8sec" prefWidth="60.0" text="Section" />
+            <TableColumn fx:id="fx8credit" prefWidth="66.0" text="Credit" />
+            <TableColumn fx:id="fx8batch" prefWidth="72.0" text="Batch" />
+            <TableColumn fx:id="fx8seat" prefWidth="70.0" text="Seat" />
+        </columns>
+      </TableView>
+      <Button fx:id="fx8add" layoutX="698.0" layoutY="245.0" mnemonicParsing="false" onAction="#fx8add" style="-fx-background-color: #2c3e50;" text="Add Course" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="fx8viewcourses" layoutX="682.0" layoutY="305.0" mnemonicParsing="false" onAction="#fx8viewcourses" style="-fx-background-color: #2c3e50;" text="View my courses" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="fx8logut" layoutX="713.0" layoutY="362.0" mnemonicParsing="false" onAction="#fx8logout" style="-fx-background-color: #2c3e50;" text="Logout" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

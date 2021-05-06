@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="fx2apane1" prefHeight="520.0" prefWidth="850.0" style="-fx-background-color: #2c3e50;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalproject3.AdminPanelController">
+   <children>
+      <Text fill="WHITE" layoutX="318.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin Panel" wrappingWidth="255.13671875">
+         <font>
+            <Font name="SansSerif Bold" size="40.0" />
+         </font>
+      </Text>
+      <Separator layoutX="84.0" layoutY="85.0" prefHeight="32.0" prefWidth="689.0" />
+      <Button fx:id="fx2vws" layoutX="335.0" layoutY="298.0" mnemonicParsing="false" onAction="#fx2viewstdnt" prefHeight="38.0" prefWidth="198.0" style="-fx-background-color: #e0eafc;" text="View Student List">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="fx2adds" layoutX="355.0" layoutY="162.0" mnemonicParsing="false" onAction="#fx2addnewstdnt" style="-fx-background-color: #e0eafc;" text="Add New Student">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="fx2addc" layoutX="357.0" layoutY="233.0" mnemonicParsing="false" onAction="#fx2addnewcourse" prefHeight="38.0" prefWidth="157.0" style="-fx-background-color: #e0eafc;" text="Add New Course">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="fx2vwc" layoutX="362.0" layoutY="364.0" mnemonicParsing="false" onAction="#fx2viewcourse" prefHeight="38.0" prefWidth="149.0" style="-fx-background-color: #e0eafc;" text="View Course List">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="fx2logout" layoutX="745.0" layoutY="456.0" mnemonicParsing="false" onAction="#fx2adminlogout" style="-fx-background-color: #e0eafc;" text="Logout">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

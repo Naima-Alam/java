@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="fx1apane1" prefHeight="520.0" prefWidth="850.0" style="-fx-background-color: #2c3e50;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalproject3.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Text fx:id="fx1txt1" fill="WHITE" fontSmoothingType="LCD" layoutX="21.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="University Course Registration">
+         <font>
+            <Font name="SansSerif Bold" size="28.0" />
+         </font>
+      </Text>
+      <Text fx:id="fx1txt2" fill="WHITE" fontSmoothingType="LCD" layoutX="148.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Summer - 2019">
+         <font>
+            <Font name="SansSerif Bold" size="20.0" />
+         </font>
+      </Text>
+      <Pane fx:id="fx1pane" layoutX="455.0" layoutY="30.0" prefHeight="460.0" prefWidth="373.0" style="-fx-background-color: #e0eafc;">
+         <children>
+            <Text fx:id="fx1txt3" layoutX="119.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log In Now !">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Text>
+            <Separator layoutX="76.0" layoutY="96.0" prefHeight="27.0" prefWidth="222.0" />
+            <Label fx:id="fx1lbl1" layoutX="28.0" layoutY="177.0" text="Enter Your Username :">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="fx1lbl2" layoutX="31.0" layoutY="239.0" text="Enter Your Password :">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fx1tf1" layoutX="195.0" layoutY="178.0" prefHeight="27.0" prefWidth="149.0" promptText="Username (ID)" />
+            <PasswordField fx:id="fx1pf1" layoutX="196.0" layoutY="241.0" promptText="Password" />
+            <Button fx:id="fx1btn1" layoutX="280.0" layoutY="303.0" mnemonicParsing="false" onAction="#handleButtonAction" style="-fx-background-color: #2c3e50;" text="Log In" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Text fx:id="fx1txt4" fill="#f80505" layoutX="247.0" layoutY="365.0" onMouseClicked="#forgotpswrd" strokeType="OUTSIDE" strokeWidth="0.0" text="Forgot Password?">
+               <font>
+                  <Font size="13.0" />
+               </font></Text>
+         </children>
+      </Pane>
+    </children>
+</AnchorPane>
